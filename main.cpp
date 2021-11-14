@@ -8,10 +8,11 @@ int main(){
 
     for (int i=2; i<(n+1); i++){
         if(c<=n){
-            cout<< c <<endl;
+           
             a = b;
             b = c;
             c = a+b;
+            cout<< c <<endl;
         }
     }
     return 0;
